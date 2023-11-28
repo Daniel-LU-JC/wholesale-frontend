@@ -1,0 +1,68 @@
+//@import 'node_modules/antd/dist/antd.css';
+@import '~antd/dist/antd.css';
+
+@bgcolor: #efefef;
+
+body {
+  font-size: 14px;
+  color: #333;
+  background: @bgcolor;
+}
+
+#app {
+  height: 100vh;
+}
+
+#title {
+  font-size: 35px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+header {
+  height: 70px;
+  background: #fff;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer {
+  height: 70px;
+  background: #001529;
+  color: #fff;
+  text-align: center;
+  line-height: 70px;
+}
+
+.logo {
+  width: 180px;
+  height: 60px;
+}
+
+.left {
+  display: flex;
+  justify-content: space-between;
+  .aside {
+    height: calc(100vh - 140px);
+  }
+  .container {
+    flex: 1;
+    box-sizing: border-box;
+    padding: 20px;
+    background: @bgcolor;
+  }
+}
+
+.title0 {
+  max-width: 1000px;
+}
+
+.site-back-top-basic {
+  color: rgba(64, 64, 64, 0.6);
+}
+
+.grid {
+  width: 1000px;
+}
